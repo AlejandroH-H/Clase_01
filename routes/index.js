@@ -9,10 +9,14 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {
   res.render('index', { 
-    title: 'Estudiante que no está en la sección :D',
+    title: 'Estudiantes que no están en la sección :D',
     firstName: 'Alejandro',
     lestName: 'Hernández',
-    id: '31605127'});
+    id: '31605127',
+    secondName:'Eduardo',
+    ApelliName: 'Hurtado',
+    Id: '31695511',
+  });
 });
 
 module.exports = router;
